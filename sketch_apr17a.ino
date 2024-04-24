@@ -1,5 +1,5 @@
 /**************************************************************************/
-/*!
+/*
     @file     readMifare.pde
     @author   Adafruit Industries
 	@license  BSD (see license.txt)
@@ -100,9 +100,9 @@ void setup(void) {
 
   Serial.println("Waiting for an ISO14443A Card ...");
 
-  //my setup
+  //my setup authored by krstovall
   browR.attach(25);  
-  browL.attach(49);// attaches the servo on pin 9 to the servo object
+  browL.attach(49);
   lidR.attach(22);  
   lidL.attach(51);
   ballUR.attach(24);
@@ -110,6 +110,7 @@ void setup(void) {
   ballUL.attach(48); 
   ballSL.attach(47);
   pinMode(33,OUTPUT);
+	// krstovall
 }
 
 
